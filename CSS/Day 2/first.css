@@ -1,0 +1,32 @@
+/* Inline element doesn't consume the entire width 
+   it consumes the required width only. */
+
+/* Universal Selector (*) */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* span{
+    background-color: blueviolet;
+    color: brown;   
+    font-style: italic;
+    font-weight: bolder;
+    height: 300px;
+    width: 300px;
+} */
+span{
+    /* background-color: pink; */
+    height: 200px;
+    width: 300px;
+}
+
+/* Block level element consume the entire width. */
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+h2{
+    background-color: brown;
+}
+

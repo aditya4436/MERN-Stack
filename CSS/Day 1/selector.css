@@ -1,0 +1,65 @@
+/* Element selector */
+/* h1{
+    background-color: pink;
+}
+ul{
+    background-color: aquamarine;
+} */
+
+
+/* ID selector or (#) based selection */
+/* #first{
+    background-color: blue;
+}
+#second{
+    background-color: pink;
+} */
+
+
+/* Class selector or (.) based selection */
+/* .third{
+    background-color: green;
+}
+.fourth{
+    background-color: blueviolet;
+} */
+
+
+/* Group based selection. */
+/* h1, .fourth, #first{
+    background-color: aqua;
+} */
+
+
+/* Fonts */
+h1{
+    font-size: 80px
+}
+
+
+/* li is the child of ul. em = size of child w.r.t., its parent. */
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 1em;
+}
+
+html{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* vw (viewport width) means the font size w.r.t., the width of the screen */
+h2{
+    font-size: 2vw;
+}
+
+/* vh (viewport height) means the font size w.r.t., the height of the screen */
+li{
+    font-size: 5vh;
+}
