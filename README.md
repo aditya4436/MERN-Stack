@@ -1,1 +1,1 @@
-In this repository, I have kept the codes of frontend projects through which I am learning MERN Stack by Rohit Negi / Coder Army.
+This repository contains code of MERN stack which I am learned from Rohit Negi.
