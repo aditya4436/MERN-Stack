@@ -1,0 +1,64 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 700px;
+    /* By default direction is row. */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    justify-content: center;
+    /* justify-content: start; */
+    /* justify-content:end; */
+
+    /* Introduces space around the margin. */
+    /* justify-content: space-around; */
+
+    /* Introduces space between the boxes. */
+    /* justify-content: space-between; */
+
+    /* The space is equally divided the boxes. */
+    /* justify-content: space-evenly; */
+
+    align-items: center;
+    /* align-items: end; */
+
+    /* This will wrap the boxes. */
+    /* flex-wrap: wrap; */
+
+    /* Introduces gap between the boxes. */
+    gap: 5px;
+}
+/* justify-content: works around the main-axis.
+   main-axis is decided by flex-direction. */
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.first{
+    background-color: orange;
+
+    /* Flex grow is use to consume the remaining spaces.
+       1, 2, etc indicates what part of remaining spaces
+       can be used by each given box. */
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: green;
+
+    /* If the flex direction is row than width of the box increases.
+       If the flex direction is column than height of the box increases. */
+    /* flex-basis: 300px; */
+}
+
+.third{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color: chartreuse;
+}
