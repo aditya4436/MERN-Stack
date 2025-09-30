@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:aliceblue
+}
+
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item{
+    background-color: rgb(95, 95, 226);
+}
+
+.item1{
+    grid-row: 1/4;
+}
+
+.item2{
+    grid-column: 2/4;
+}
+
+.item6{
+    grid-row: 2/4;
+
+    /* marking for which part it belongs. */
+    grid-column: 4/5; 
+}
