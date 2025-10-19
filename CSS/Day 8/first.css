@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+@keyframes moving{
+    from{
+        transform: rotate(0deg) translateX(100px);
+    }
+
+    to{
+        transform: rotate(360deg) translateX(100px);
+    }
+}

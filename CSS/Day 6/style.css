@@ -1,0 +1,33 @@
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+
+/* Upto 700px */
+@media screen and (max-width: 700px) {
+    .container{
+        background-color: green;
+        font-size: 40px;
+    }
+}
+
+/* Upto 600px */
+@media  screen and (max-width:600px){
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        font-size: 30px;
+    }
+}
+
+/* 800px and above.*/
+@media screen and (min-width: 800px) {
+    .container{
+        background-color: orange;
+        font-size: 60px;
+    }
+}
